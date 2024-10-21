@@ -1,7 +1,7 @@
 <p align="center"><img width="200px" src="img/myself.JPG" alt="myself" /></p>
 
 
-# Untung's Landing page practice (HTML CSS)
+# This is Untung's Landing page practice (HTML CSS)
 
 ## Hi...there!!!! 👋🏻👋🏻👋🏻👋🏻👋🏻
 ##### I'm D Untung, _You can Call me DT_
