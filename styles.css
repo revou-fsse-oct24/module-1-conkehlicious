@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial;
-  background-color: rgb(130, 127, 122);
+  background-color: white;
   height: 3000px;
 }
 
@@ -25,7 +25,7 @@ header {
 }
 .logo {
   font-size: 32px;
-  color: aliceblue;
+  color: orange;
   text-decoration: none;
   font-weight: 700;
   cursor: cell;
@@ -55,6 +55,29 @@ header {
 /* navbar-end-------------------------------------------------------------------------------------------------------------- */
 
 .container {
-  margin-top: 200px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.title {
+  font-size: 40px;
+  width: 50%;
+}
+
+section {
+  background-color: rgb(226, 226, 226);
+  height: 300px;
+}
+h3 {
   text-align: center;
+  font-size: 30px;
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
 }
