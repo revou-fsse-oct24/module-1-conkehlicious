@@ -93,3 +93,17 @@ article {
   justify-content: center;
   gap: 50px;
 }
+/* footer FORM */
+footer {
+  background-color: rgb(226, 226, 226);
+  height: 400px;
+  margin-top: 50px;
+}
+.container-form {
+  width: 500px;
+  margin: auto;
+  letter-spacing: 5px;
+}
+.container-form input {
+  width: 100%;
+}
