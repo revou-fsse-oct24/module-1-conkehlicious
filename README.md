@@ -18,7 +18,12 @@
 
 # About This Project
 
-##### • ...
+##### We are learning how to :
+
+##### -Implement the basic structure of Landing Page using HTML TAGS.
+##### -Ensure the use of correct semantics for each HTML element
+##### -Create a Form set that includes (input type text, teaxtarea, submit button, radio buttons, checkboxes, and select)
+
 
 # Take a peep at This Project
 
