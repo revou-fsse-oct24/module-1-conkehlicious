@@ -104,3 +104,12 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+input[type="submit"] {
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
