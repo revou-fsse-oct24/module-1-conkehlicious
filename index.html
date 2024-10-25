@@ -70,26 +70,61 @@
 
     <!-- footer FORM start----------------------------------------------------------------------- -->
     <footer>
-      <h3>Join Our News Letter</h3>
-      <div class="container-form">
-        <form>
-          <label>First Name :</label>
-          <input type="text" name="first" placeholder="john" /><br />
-          <label>Last Name :</label>
-          <input type="text" name="last" placeholder="doe" /><br />
-          <label>Email :</label>
-          <input type="text" name="email" placeholder="john@gmail.com" /><br />
-         
-          <div class="location">
-              <label for="location">Location </label>
-              <select name="Location" id="location">
-                <option value="virginia">VIRGINIA</option>
-                <option value="orlando">ORLANDO</option>
-                <option value="lasvegas">LAS VEGAS</option>
-              </select>
-          <button>Submit</button>
-        </form>
-      </div>
+      <form action="" method="get">
+        <!-- name form -->
+        <label for="name"
+          ><h4>Name</h4>
+          <input
+            type="text"
+            id="name"
+            placeholder="Your Name"
+            required /></label
+        ><br /><br />
+        <!-- email form -->
+        <label for="email"
+          ><h4>Email</h4>
+          <input
+            type="email"
+            id="email"
+            placeholder="Your Email"
+            required /></label
+        ><br /><br />
+        <!-- review form -->
+        <label for="review"
+          ><h4>Review</h4>
+          <textarea
+            name="review"
+            id="review"
+            cols="60"
+            rows="5"
+            placeholder="Your text"
+            required
+          ></textarea></label
+        ><br /><br />
+        <!-- sign up form -->
+        <label for="signup"
+          ><h4>Sign up for our latest promo</h4>
+          <input type="radio" value="yes" id="yes" name="signup" checked />Yes
+          <input type="radio" value="no" id="no" name="signup" />
+          No</label
+        ><br /><br />
+        <label for="location"><h4>Location</h4></label>
+        <select id="location">
+          <option value="florida">Florida</option>
+          <option value="lasvegas">Las Vegas</option>
+          <option value="chicago">Chicago</option></select
+        ><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12416.67604870495!2d-77.0485579604492!3d38.92011430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e72390f0e5%3A0x34ee03cb8ae08e5c!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1719287765319!5m2!1sen!2sus"
+        width="400"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </footer>
     <!-- footer FORM end------------------------------------------------------------------------->
   </body>
