@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>ORANGE HUB</title>
   </head>
 
   <body>
@@ -14,22 +18,27 @@
       <nav class="navbar">
         <a href="#">HOME</a>
         <a href="#">ABOUT</a>
-        <a href="#">GALLERY</a>
-        <a href="#">SERVICES</a>
-        <a href="#">CONTACT</a>
+        <a href="#gallery">GALLERY</a>
+        <a href="#service">SERVICES</a>
+        <a href="#footer">CONTACT</a>
       </nav>
     </header>
     <!-- navbar end----------------------------------------------------------------------------------->
 
     <!-- main-container start------------------------------------------------------------------------------>
     <div class="container">
-      <div class="title">
-        <h1>AFFORDABLE WORKSPACE</h1>
-        <p>
-          Discover Flexible spaces and solution to grow your business forward
-        </p>
+      <h1>
+        AFFORDABLE WORKSPACE
+        <span>
+          <p>
+            Discover Flexible spaces and solution to grow your business forward
+          </p>
+        </span>
+      </h1>
+
+      <div class="main-image">
+        <img src="img/building01.jpeg" width="600px" alt="building01" />
       </div>
-      <img src="img/building01.jpeg" width="600px" alt="building01" />
     </div>
     <!-- main-container end------------------------------------------------------------------------------>
 
@@ -37,7 +46,7 @@
     <section>
       <h3>OUR PARTNER</h3>
 
-      <div class="partners">
+      <div class="partners" id="partners">
         <img src="img/amz.png" alt="amazon" />
         <img src="img/tesla.jpg" alt="tesla" />
         <img src="img/Instacart-Logo.jpg" alt="instacart" />
@@ -48,7 +57,7 @@
 
     <!-- article facilities start------------------------------------------------------------------------------>
     <article>
-      <h3>Flexible Workspace Designed Around Your Needs</h3>
+      <h3 id="gallery">Flexible Workspace Designed Around Your Needs</h3>
       <div class="container-facilities">
         <div class="privateoffice">
           <img src="img/private-office.jpeg " width="200px" alt="" />
@@ -65,11 +74,51 @@
           <figcaption>Coffee Shop</figcaption>
         </div>
       </div>
+
+      <h3 id="service">Service & Amenities</h3>
+      <div class="container-amenities">
+        <div class="amenities1">
+          <h4>Caffeine zone</h4>
+          <p><i class="fa-solid fa-mug-hot"></i> Complimentary coffee & tea</p>
+          <br />
+
+          <h4>Equipment</h4>
+          <p><i class="fa-solid fa-print"></i> Printer</p>
+          <p><i class="fa-brands fa-r-project"></i> Projector</p>
+          <p><i class="fa-solid fa-tv"></i> TV/Monitor</p>
+          <p><i class="fa-solid fa-chalkboard"></i> White boards</p>
+          <br />
+
+          <h4>Community</h4>
+          <p><i class="fa-solid fa-headset"></i> IT support</p>
+        </div>
+
+        <div class="amenities2">
+          <h4>Classic</h4>
+          <p><i class="fa-solid fa-wifi"></i> High-Speed wifi</p>
+          <br />
+
+          <h4>Facilities</h4>
+          <p><i class="fa-solid fa-bicycle"></i> Bike Storage</p>
+          <p><i class="fa-solid fa-broom"></i> Cleaning Service</p>
+          <p><i class="fa-solid fa-kitchen-set"></i> Kitchen</p>
+          <p><i class="fa-solid fa-envelope"></i> Mail Service</p>
+          <p><i class="fa-solid fa-person-booth"></i> Privacy booths</p>
+        </div>
+
+        <div class="amenities3">
+          <h4>Food & Beverage</h4>
+
+          <p><i class="fa-solid fa-glass-water"></i> Free Drinking Water</p>
+          <p><i class="fa-solid fa-utensils"></i> Catering</p>
+          <p><i class="fa-solid fa-cookie-bite"></i>Snack</p>
+        </div>
+      </div>
     </article>
     <!-- article facilities end------------------------------------------------------------------------------>
 
     <!-- footer FORM start----------------------------------------------------------------------- -->
-    <footer>
+    <footer id="footer">
       <form action="" method="get">
         <!-- name form -->
         <label for="name"
@@ -80,6 +129,7 @@
             placeholder="Your Name"
             required /></label
         ><br /><br />
+
         <!-- email form -->
         <label for="email"
           ><h4>Email</h4>
@@ -89,6 +139,18 @@
             placeholder="Your Email"
             required /></label
         ><br /><br />
+
+        <!-- phone form -->
+        <label for="phone"
+          ><h4>Phone (optional)</h4>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="123-12-123"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            required /></label
+        ><br /><br />
+
         <!-- review form -->
         <label for="review"
           ><h4>Review</h4>
@@ -101,6 +163,7 @@
             required
           ></textarea></label
         ><br /><br />
+
         <!-- sign up form -->
         <label for="signup"
           ><h4>Sign up for our latest promo</h4>
@@ -116,7 +179,36 @@
         ><br /><br />
         <input type="submit" value="Submit" />
       </form>
-      <iframe
+
+      <div class="address">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12416.67604870495!2d-77.0485579604492!3d38.92011430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e72390f0e5%3A0x34ee03cb8ae08e5c!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1719287765319!5m2!1sen!2sus"
+          width="400"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h4>Orange Hub</h4>
+        <ul>
+          <li>
+            <i class="fa-solid fa-location-dot"></i
+            ><span>5191 S Las Vegas Blvd, Las Vegas, NV 89119</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-clock"></i
+            ><span>Open Daily : 9.00am - 5.00pm</span>
+          </li>
+          <li><i class="fa-solid fa-phone"></i><span>+1 917 888 1234</span></li>
+          <li>
+            <i class="fa-solid fa-envelope"></i><span>orangehub@mail.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- google map -->
+      <!-- <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12416.67604870495!2d-77.0485579604492!3d38.92011430000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e72390f0e5%3A0x34ee03cb8ae08e5c!2sLa%20Colombe%20Coffee%20Roasters!5e0!3m2!1sen!2sus!4v1719287765319!5m2!1sen!2sus"
         width="400"
         height="300"
@@ -124,7 +216,7 @@
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      ></iframe> -->
     </footer>
     <!-- footer FORM end------------------------------------------------------------------------->
   </body>
