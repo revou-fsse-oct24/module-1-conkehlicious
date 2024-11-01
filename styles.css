@@ -167,6 +167,9 @@ input[type="submit"] {
     overflow-x: hidden;
     z-index: 100;
   }
+  .navbar a {
+    font-size: 10px;
+  }
   .container {
     /* border: 2px red solid; */
     margin: auto;
@@ -177,6 +180,7 @@ input[type="submit"] {
   .container h1 {
     margin-top: 80px;
     font-size: 40px;
+    font-weight: 800;
   }
   .container img {
     width: 300px;
