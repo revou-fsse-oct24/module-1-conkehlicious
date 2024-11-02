@@ -125,6 +125,7 @@ h4 {
 /* footer FORM ------------------------------------------------------------------------- */
 footer {
   background-color: rgb(198, 197, 197);
+  border-radius: 5px;
   padding: 20px;
   width: 60%;
   margin: auto;
